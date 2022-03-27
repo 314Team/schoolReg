@@ -1,0 +1,76 @@
+body {
+	background-color:#9DAEBF;
+	padding-bottom: 1300px;
+}
+
+div {
+	background-color: #C5D6E7;
+	position: absolute;
+	width: 900px;
+	height: 1200px;
+	color: black;
+	transform:translate(210px,50px);
+	box-shadow: 1px 1px 10px 0px black;
+
+}
+
+input {
+	width:170px;
+	background-color: #DDEEFF;
+}
+
+input.selectFile{
+	width: 225px;
+}
+
+input.radio{
+	width: 20px;
+}
+
+input:focus {
+  background-color: lightblue;
+}
+}
+
+input.email {
+	width: 280px;
+}
+
+textarea{
+	width: 280px;
+	height: 100px;
+	border: 1px solid black;
+	background-color: #DDEEFF;
+
+}
+
+textarea:focus{
+	background-color: lightblue;
+}
+
+textarea.krujokAndAdress{
+	width: 280px;
+	height: 50px;
+	border: 1px solid black;
+	background-color: #DDEEFF;
+}
+
+textarea.krujokAndAdress:focus{
+	background-color: lightblue;
+}
+
+
+div.b {
+	width: 400px;
+	height: 400px;
+	box-shadow: 0px 0px 0px 0px black; 
+}
+
+input.submit {
+	padding: 10px 30px;
+
+}
+
+input.tarih {
+	width: 170px;
+}
