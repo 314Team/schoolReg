@@ -1,8 +1,10 @@
 from statistics import mode
+from tabnanny import verbose
 from django.db import models
 
 # Create your models here.
 class Student(models.Model):
+    #id -> pk(primary key)
     name = models.CharField(max_length=20)
     surname = models.CharField(max_length=20)
     fathername = models.CharField(max_length=20,blank=True)
@@ -23,3 +25,10 @@ class Student(models.Model):
     
     createDate = models.DateTimeField(auto_now_add=True)
     updateDate = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.surname+' '+self.name
+
+    class Meta:
+        verbose_name = 'Студент'
+        verbose_name_plural = 'Студенты'

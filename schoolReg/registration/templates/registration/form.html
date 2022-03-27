@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./form.css">
+	<title>{{title}}</title>
+</head>
+<body>
+	<div>
+
+
+		<div class="b">
+
+		<label for="Name">Имя:</label><br> 
+		<input name="Name" type="text"/><br/><br/>
+		
+		<label for="FName">Фамилия:</label><br> 
+		<input name="FName" type="text"/><br/><br/>
+
+		<label for="BirthDay">Дата рождения:</label><br> 
+		<input name="BirthDay" type="date" class="tarih" min="2004-01-01" max="2016-12-12" /><br/><br/>
+
+		<label for="LearnClacc">Класс:</label><br> 
+		<input name="LearnClacc" type="number" min="1" max="11"/><br/><br/>
+
+		<label for="PhoneNumber">Мобильный номер:</label><br> 
+		<input name="PhoneNumber" type="tel" minlength="9" maxlength="12" /><br/><br/>
+
+		<div class="a">
+
+		<label for="krujok">Домашний адрес:</label><br> 
+		<textarea name="krujok" class="krujokAndAdress"></textarea><br/><br/>
+
+		<label for="krujok">Кружки:</label><br> 
+		<textarea name="krujok" class="krujokAndAdress"></textarea><br/><br/>
+
+		<label for="DopPrime">Дополнительные примечания:</label><br> 
+		<textarea name="DopPrime" ></textarea><br/><br/>
+
+		<input type="file" id="myfile" name="myfile">
+
+		</div>
+		<input type="radio" name="sex" value="male"> Муж
+		<input type="radio" name="sex" value="female"> Жен
+
+		<input type="submit" value="Отправить" class="submit">
+
+		</div>
+
+
+	</div>
+</body>
+</html>
