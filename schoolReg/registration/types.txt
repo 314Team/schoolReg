@@ -1,0 +1,16 @@
+id - INT
+name - VARCHAR
+surname - VARCHAR
+patron - VARCHAR
+bithDate - DATE
+class - INT
+adress - TEXT
+sex - INT
+photo - IMG
+phone - TEXT
+email - TEXT
+regDate - DATETIME
+upgraded - DATETIME
+comment - TEXT
+dad - TEXT
+mom - TEXT
