@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    return HttpResponse('Hello World! It\'s a adminPanel page!')
+    return HttpResponse('Если вы это видите, значит чел ответственный за админку не сделал свою работу!')

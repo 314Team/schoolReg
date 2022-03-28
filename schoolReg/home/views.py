@@ -6,5 +6,5 @@ def index(request):
     #return HttpResponse('Hello World! It\'s a home page!')
     return render(request,'home/index.html',{'text':'This is home page!'})
 
-def test(request):
-    return HttpResponse('<h1> Test page </h1>')
+def suc(request):
+    return render(request, 'home/index.html',{'text':'Registration success!'})
